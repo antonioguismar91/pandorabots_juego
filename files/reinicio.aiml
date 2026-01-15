@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>SI</pattern>
+    <template>
+        Muy bien, volvamos a intentarlo 🔁
+
+        <srai>HOLA</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <template>
+        Gracias por jugar 🏺  
+        Que los dioses egipcios te acompañen.
+    </template>
+</category>
+
+</aiml>

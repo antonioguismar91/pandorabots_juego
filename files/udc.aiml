@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            No entiendo esa acción 🤔  
+            Usa una de las opciones que aparecen en la historia, por ejemplo:  
+            **EXPLORAR**, **GRITAR**, **LEER JEROGLÍFICOS**, **PUERTA DE RA**, etc.
+        </template>
+    </category>
+
+</aiml>

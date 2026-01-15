@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>FINAL BUENO</pattern>
+    <template>
+        ☀️ La luz de Ra ilumina tu camino.  
+        Escapas de la pirámide al amanecer.
+
+        🏆 FINAL BUENO: Has sobrevivido y honrado a los dioses.
+
+        ¿Quieres jugar otra vez?  
+        Escribe **SI** o **NO**
+    </template>
+</category>
+
+<category>
+    <pattern>FINAL JUICIO</pattern>
+    <template>
+        ⚖️ Anubis te juzga digno.  
+        Sales marcado por la experiencia.
+
+        ⚖️ FINAL NEUTRO: El juicio ha terminado.
+
+        ¿Quieres jugar otra vez?  
+        Escribe **SI** o **NO**
+    </template>
+</category>
+
+<category>
+    <pattern>FINAL SUPERVIVIENTE</pattern>
+    <template>
+        🩸 Logras salir con vida, pero sin gloria.
+
+        ⚖️ FINAL NEUTRO: Superviviente.
+
+        ¿Quieres jugar otra vez?  
+        Escribe **SI** o **NO**
+    </template>
+</category>
+
+<category>
+    <pattern>FINAL TRAMPA</pattern>
+    <template>
+        🐍 Las trampas antiguas sellan tu destino.
+
+        💀 FINAL MALO: La pirámide reclama tu alma.
+
+        ¿Quieres jugar otra vez?  
+        Escribe **SI** o **NO**
+    </template>
+</category>
+
+<category>
+    <pattern>FINAL MALDICION</pattern>
+    <template>
+        👁️ Te conviertes en guardián eterno de la pirámide.
+
+        💀 FINAL MALO: Maldición del faraón.
+
+        ¿Quieres jugar otra vez?  
+        Escribe **SI** o **NO**
+    </template>
+</category>
+
+<category>
+    <pattern>FINAL OSCURIDAD</pattern>
+    <template>
+        🌑 Nunca vuelves a ver la luz.
+
+        💀 FINAL MALO: Perdido en la oscuridad.
+
+        ¿Quieres jugar otra vez?  
+        Escribe **SI** o **NO**
+    </template>
+</category>
+
+</aiml>

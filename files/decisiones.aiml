@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- DECISIÓN INICIAL -->
+<category>
+    <pattern>EXPLORAR</pattern>
+    <template>
+        Exploras la pirámide con cautela.  
+        Llegas a dos caminos distintos.
+
+        ¿A dónde vas?  
+        **SALA DE JEROGLÍFICOS**  
+        **PASILLO OSCURO**
+    </template>
+</category>
+
+<category>
+    <pattern>GRITAR</pattern>
+    <template>
+        Tu voz resuena por la pirámide.  
+        Antiguos guardianes despiertan de su letargo 👁️  
+
+        ¿Qué haces?  
+        **LUCHAR**  
+        **HUIR**
+    </template>
+</category>
+
+<!-- SALA DE JEROGLÍFICOS -->
+<category>
+    <pattern>SALA DE JEROGLÍFICOS</pattern>
+    <template>
+        Observas jeroglíficos dedicados a los dioses.  
+        Anubis vigila el juicio de las almas.
+
+        ¿Qué haces?  
+        **LEER JEROGLÍFICOS**  
+        **IGNORAR JEROGLÍFICOS**
+    </template>
+</category>
+
+<category>
+    <pattern>LEER JEROGLÍFICOS</pattern>
+    <template>
+        Los textos hablan de dos puertas sagradas.
+
+        Elige:  
+        **PUERTA DE RA**  
+        **PUERTA DE ANUBIS**
+    </template>
+</category>
+
+<category>
+    <pattern>IGNORAR JEROGLÍFICOS</pattern>
+    <template>
+        Ignoras las advertencias antiguas…  
+        Activaste una trampa mortal 🐍  
+
+        <srai>FINAL TRAMPA</srai>
+    </template>
+</category>
+
+<!-- PUERTAS -->
+<category>
+    <pattern>PUERTA DE RA</pattern>
+    <template>
+        La luz del sol te guía.  
+        Has honrado al dios Ra ☀️  
+
+        <srai>FINAL BUENO</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>PUERTA DE ANUBIS</pattern>
+    <template>
+        Anubis aparece ante ti ⚖️  
+
+        ¿Cómo actúas?  
+        **OFRECER RESPETO**  
+        **DESAFIAR**
+    </template>
+</category>
+
+<category>
+    <pattern>OFRECER RESPETO</pattern>
+    <template>
+        Anubis acepta tu humildad.  
+        Te permite abandonar la pirámide.
+
+        <srai>FINAL JUICIO</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>DESAFIAR</pattern>
+    <template>
+        Has fallado el juicio de Anubis…  
+
+        <srai>FINAL MALDICION</srai>
+    </template>
+</category>
+
+<!-- PASILLO OSCURO -->
+<category>
+    <pattern>PASILLO OSCURO</pattern>
+    <template>
+        El pasillo está completamente a oscuras.
+
+        ¿Qué haces?  
+        **ENCENDER ANTORCHA**  
+        **AVANZAR A OSCURAS**
+    </template>
+</category>
+
+<category>
+    <pattern>ENCENDER ANTORCHA</pattern>
+    <template>
+        La luz revela una salida secundaria.  
+        Escapas, aunque herido.
+
+        <srai>FINAL SUPERVIVIENTE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>AVANZAR A OSCURAS</pattern>
+    <template>
+        Tropiezas y caes en una fosa sin fondo.
+
+        <srai>FINAL OSCURIDAD</srai>
+    </template>
+</category>
+
+<!-- GUARDIANES -->
+<category>
+    <pattern>LUCHAR</pattern>
+    <template>
+        Los guardianes son demasiado fuertes.
+
+        <srai>FINAL MALDICION</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>HUIR</pattern>
+    <template>
+        Huyes desesperadamente.
+
+        ¿Dónde te escondes?  
+        **ESCONDITE**  
+        **PERDERSE**
+    </template>
+</category>
+
+<category>
+    <pattern>ESCONDITE</pattern>
+    <template>
+        Esperas en silencio hasta que se marchan.
+
+        <srai>FINAL SUPERVIVIENTE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>PERDERSE</pattern>
+    <template>
+        Te adentras demasiado…
+
+        <srai>FINAL OSCURIDAD</srai>
+    </template>
+</category>
+
+</aiml>

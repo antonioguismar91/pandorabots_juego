@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>HOLA</pattern>
+    <template>
+        <think>
+            <set name="state">inicio</set>
+        </think>
+        Despiertas dentro de una antigua pirámide egipcia 🔺  
+        La entrada se ha cerrado tras de ti.  
+        El aire es denso y hay jeroglíficos en las paredes.  
+
+        ¿Qué haces?  
+        Escribe **EXPLORAR** o **GRITAR**
+    </template>
+</category>
+
+</aiml>
